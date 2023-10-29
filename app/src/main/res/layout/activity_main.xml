@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    android:paddingTop="56dp"
+    android:padding="28dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="Welcome"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="Shurya Snack" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Mantap dan Lezat" />
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/illus2"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Sederhana, Cerdas, Efisien" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Pantau dan kelola keuangan bisnis Anda dengan mudah melalui aplikasi kami. Kendalikan keuangan bisnis Anda dengan cepat dan efisien. Dapatkan kontrol penuh atas bisnis Anda." />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <LinearLayout
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="GET STARTED" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:paddingStart="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/right"
+            app:tint="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>

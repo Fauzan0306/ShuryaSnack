@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="Dashboard"/>
+    </group>
+
+    <item
+        android:title="Fitur Lainnya">
+
+        <menu>
+            <item
+                android:id="@+id/nav_product"
+                android:icon="@drawable/nav_product"
+                android:title="Menejemen Product"/>
+
+            <item
+                android:id="@+id/nav_income"
+                android:icon="@drawable/nav_financial"
+                android:title="Laporan Pendapatan"/>
+            <item
+                android:id="@+id/nav_history"
+                android:icon="@drawable/nav_history"
+                android:title="Riwayat transaksi"/>
+
+        </menu>
+    </item>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/nav_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+</menu>
